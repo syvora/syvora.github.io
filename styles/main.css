@@ -79,4 +79,18 @@ body {
 .hero-content {
     z-index: 2;
     position: relative;
+}
+
+/* Add after existing nav styles */
+.logo img {
+    transition: transform 0.3s ease;
+}
+
+.logo img:hover {
+    transform: scale(1.05);
+}
+
+.nav-content .logo {
+    display: flex;
+    align-items: center;
 } 
